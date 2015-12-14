@@ -3,10 +3,29 @@
     <head lang="en">
         <meta charset="UTF-8">
         <title>Bootstrap Material</title>
+        <link rel="stylesheet" type="text/css" href="bower_modules/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="bower_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css"/>
+        <link rel="stylesheet" type="text/css" href="bower_modules/bootstrap-material-design/dist/css/ripples.min.css"/>
+        <script src="bower_modules/jquery/dist/jquery.min.js"></script>
+        <script src="bower_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_modules/bootstrap-material-design/dist/js/material.min.js"></script>
+        <script src="bower_modules/bootstrap-material-design/dist/js/ripples.min.js"></script>
     </head>
     <body ng-app="app" ng-cloak class="container">
         <div ng-controller="AppCtrl" class="row">
             {{appState.msg}}
+            <br/>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="btn btn-raised active"><code>.active</code></a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-default">Default</a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-primary">Primary</a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-success">Success</a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-info">Info</a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-warning">Warning</a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-danger">Danger</a>
+                <a href="javascript:void(0)" class="btn btn-raised btn-link">Link</a>
+            </div>
+            <div class="col-md-8"></div>
         </div>
         <script src="jspm_packages/system.js"></script>
         <script src="config.js"></script>
