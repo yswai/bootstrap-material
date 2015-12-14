@@ -11,7 +11,5 @@ import 'bootstrap-material/dist/js/material.min.js'
 import 'bootstrap-material/dist/js/ripples.min.js'
 
 angular.element(document).ready(function() {
-    angular.bootstrap(document, [main.name], {
-        strictDi: true
-    });
+    angular.bootstrap(document, [main.name]);
 });
