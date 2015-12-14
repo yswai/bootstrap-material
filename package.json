@@ -14,7 +14,9 @@
       "baseURL": "client"
     },
     "dependencies": {
-      "angular-material": "github:angular/bower-material@^0.11.4"
+      "angular-material": "github:angular/bower-material@^0.11.4",
+      "bootstrap-material": "github:fezVrasta/bootstrap-material-design@^0.5.5",
+      "jquery": "github:components/jquery@^2.1.4"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

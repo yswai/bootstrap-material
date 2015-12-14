@@ -17,7 +17,9 @@ System.config({
     "angular-material": "github:angular/bower-material@0.11.4",
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
+    "bootstrap-material": "github:fezVrasta/bootstrap-material-design@0.5.5",
     "core-js": "npm:core-js@1.2.6",
+    "jquery": "github:components/jquery@2.1.4",
     "github:angular/bower-angular-animate@1.4.8": {
       "angular": "github:angular/bower-angular@1.4.8"
     },
