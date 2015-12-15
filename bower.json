@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ysw <yswai1986@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/yswai/bootstrap-material",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
