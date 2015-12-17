@@ -14,6 +14,7 @@ main.run(function() {
 
 main.controller('AppCtrl', function($scope) {
     let testVar = 'testVar';
+    $scope.showDialog = false;
     $scope.appState = {};
     $scope.appState.msg = `Hey There ${testVar}`;
 });
