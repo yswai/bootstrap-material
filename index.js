@@ -1,9 +1,10 @@
 'use strict';
 
-let port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080;
-let express = require('express');
+var port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+var express = require('express');
 
-let app = express();
+var app = express();
 
 app.use(express.static('client'));
 
