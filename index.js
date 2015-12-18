@@ -1,6 +1,6 @@
 'use strict';
 
-let port = process.env.PORT || 8889;
+let port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8889;
 let express = require('express');
 
 let app = express();
