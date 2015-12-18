@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm install -g jspm && npm install -g bower && jspm install && bower install",
+    "prestart": "npm install -g jspm && npm install -g bower && jspm install && bower install",
     "start": "node index.js"
   },
   "author": "",
