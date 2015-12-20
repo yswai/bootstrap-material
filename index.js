@@ -8,5 +8,5 @@ var app = express();
 
 app.use(express.static('client'));
 
-app.listen(port);
+app.listen(port, server_ip_address);
 console.log('Server is listening at port : ' + port);
